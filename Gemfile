@@ -8,7 +8,8 @@ gem 'rails', '3.2.3'
 gem 'sqlite3'
 
 group :development, :test do  
-  gem 'rspec-rails', '2.9.0'
+  gem 'rspec-rails'
+  gem 'webrat', '0.7.1'
 end
 
 
